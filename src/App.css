@@ -6,7 +6,33 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
-
+.calc{
+  margin-top: 50px;
+  width: 25%;
+  margin-left: 400px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.calc tbody tr td{
+  height: 50px; 
+}
+.op button{
+  background-color:rgb(192, 70, 70);
+  color: white; 
+}
+.op_equal button{
+  background-color: rgb(82, 70, 70);
+  color:white;
+}
+.screen{
+  background-color:grey;
+  color: white;
+  direction: rtl; 
+}
+.button{
+  width: 100%;
+  height: 100%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
